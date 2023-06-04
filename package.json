@@ -1,0 +1,18 @@
+{
+  "name": "autojs6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web_headed": "npx cypress open --browser --headed chrome --config cypress.config.js",
+    "mob_headed": "npx cypress open --browser --headed chrome --config-file cypress2.config.js",
+    "web_headless": "npx cypress run --browser --headless chrome --config cypress.config.js",
+    "mob_headless": "npx cypress run --browser --headless chrome --config-file cypress2.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
